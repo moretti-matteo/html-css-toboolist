@@ -28,7 +28,7 @@ h1{
     background: #fff;
     margin:40px auto;
     width: 800px;
-    height: 600px;
+    height: 900px;
     border-radius: 20px;
     
 }
@@ -46,6 +46,8 @@ h1{
 button{
     padding: 8px;
     border-radius: 5px;
+    display: inline-block;
+    border:none;
 }
 
 .section-button{
@@ -57,10 +59,27 @@ hr{
     background: #c8caca;
 }
 
+.container-list{
+    padding-left: 60px;
+}
+
+h3{
+    margin-bottom:10px;
+}
+
+span{
+    margin-right: 5px;
+}
+
+.list{
+    margin-top:25px;
+}
+
 .circle{
     border:1px solid rgb(39, 24, 24);
     border-radius: 100%;
     padding: 4px;
+    display: inline-block;
 }
 
 .circle-green{
@@ -75,10 +94,34 @@ hr{
 
 .label{
     color:#fff;
-    border-radius: 10px;
-    padding: 10px;
+    border-radius: 15px;
+    padding: 8px 20px;
 }
 
 .label-blue{
     background: #47adf1;
+}
+
+.label-purple{
+    background: #9c72e4;
+}
+
+.label-marine{
+    background: #64c0a9;
+}
+
+.label-orange{
+    background: orange;
+}
+
+.label-fuchsia{
+    background: #d863a1;
+}
+
+.label-green{
+    background: #b0c926;
+}
+
+.elem{
+    margin-bottom: 20px;
 }
