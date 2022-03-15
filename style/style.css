@@ -57,5 +57,28 @@ hr{
     background: #c8caca;
 }
 
+.circle{
+    border:1px solid rgb(39, 24, 24);
+    border-radius: 100%;
+    padding: 4px;
+}
 
+.circle-green{
+    color:green;
+    border-color:green;
+}
 
+.circle-red{
+    color:red;
+    border-color:red;
+}
+
+.label{
+    color:#fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.label-blue{
+    background: #47adf1;
+}
