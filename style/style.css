@@ -1,8 +1,61 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
+    background:#c8caca ;
+} 
+
+.logo{
+    vertical-align: middle;
 }
+
+header{
+    background: #fff;
+    padding: 7px 15px;
+
+}
+
+h1{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main{
+    background: #fff;
+    margin:40px auto;
+    width: 800px;
+    height: 600px;
+    border-radius: 20px;
+    
+}
+
+
+.task-button{
+    background: #47adf1;
+    color:white
+}
+
+.button-container{
+    padding: 15px 50px 10px 60px;
+}
+
+button{
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.section-button{
+    background: rgb(238, 237, 237);
+    color:grey;
+}
+
+hr{
+    background: #c8caca;
+}
+
+
+
